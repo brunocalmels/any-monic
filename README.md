@@ -15,7 +15,7 @@ Not much, just that:
 The script is written on _dart_, so you essencially only need to install it.
 
 ### 1. Install Dart
-Visit (the official page)[https://dart.dev/get-dart#install] and follow the short instructions.
+Visit [the official page](https://dart.dev/get-dart#install) and follow the short instructions.
 
 ### 2. Clone this repo
 Go to your console, and type `git clone git@github.com:brunocalmels/any-monic.git`
