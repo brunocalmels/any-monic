@@ -46,8 +46,8 @@ void main(List<String> arguments) {
 
   final mnemonic = arguments[0];
 
-  // final derivationPath = "m/44'/60'/0'/0/0"; // Ethereum
-  final derivationPath = "m/44'/137'/0'/0/0"; // RSK
+  final derivationPath = "m/44'/60'/0'/0/0"; // Ethereum
+  // final derivationPath = "m/44'/137'/0'/0/0"; // RSK
 
   print("Deriving for path: $derivationPath\n");
 
