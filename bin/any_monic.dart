@@ -38,15 +38,18 @@ String _getAddress(pubKey, networkId) {
 }
 
 void main(List<String> arguments) {
-  var mnemonic = arguments[0];
-  print("Mnemonic: ${mnemonic}");
+  final argsLength = arguments.length;
+  if (argsLength != 1) {
+    print("Usage: dart bin/any_monic.dart '<mnemonic>'");
+    return;
+  }
+
+  final mnemonic = arguments[0];
 
   // final derivationPath = "m/44'/60'/0'/0/0"; // Ethereum
-  final derivationPath = "m/44'/137'/0'/0/0"; // RKS
+  final derivationPath = "m/44'/137'/0'/0/0"; // RSK
 
-  
-
-  print("Derivating for derivation path: $derivationPath");
+  print("Deriving for path: $derivationPath\n");
 
   final chainId = 1;
   final rootNode = generateRootNode(mnemonic);
