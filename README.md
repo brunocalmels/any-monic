@@ -1,5 +1,5 @@
 # any-monic
-Bring whatever kind of mnemonic you want, leave with an address and a PK
+Bring whatever kind of mnemonic you want, leave with an address and a private key.
 
 ## What can I use this for?
 1. Input your mnemonic
